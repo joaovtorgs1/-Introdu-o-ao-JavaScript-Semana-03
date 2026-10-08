@@ -1,0 +1,105 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Semana 04 - Arrays, DOM e Eventos</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .texto {
+            color: #555;
+        }
+
+        .destaque {
+            font-weight: bold;
+            color: blue;
+        }
+
+        .feito {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        input {
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 id="titulo">Título original</h1>
+
+        <p class="texto">Este é o primeiro parágrafo.</p>
+        <p class="texto">Este é o segundo parágrafo.</p>
+
+        <h2>Lista de itens</h2>
+
+        <ul id="lista">
+            <li>Item HTML 1</li>
+            <li>Item HTML 2</li>
+            <li>Item HTML 3</li>
+        </ul>
+
+        <h2>Eventos</h2>
+
+        <button id="botao">Clique aqui</button>
+
+        <br><br>
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+
+        <h2>Adicionar tarefa</h2>
+
+        <form id="formulario">
+
+            <input
+                type="text"
+                id="tarefa"
+                placeholder="Digite uma tarefa"
+            >
+
+            <button type="submit">Adicionar tarefa</button>
+
+        </form>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
+```
